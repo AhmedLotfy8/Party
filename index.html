@@ -19,42 +19,56 @@
 
 <body>
 
-    <nav class="position-absolute top-0 bottom-0">
+    <section class="hero mb-4">
 
-        <div class="navMenu bg-black py-5 ps-3 pe-5">
+        <div class="headerOverlay d-flex justify-content-center align-items-center">
 
-            <div class="d-flex justify-content-end pb-4">
-                <i class="fa-solid fa-x text-white text-end"></i>
+            <header class="text-white text-center">
+                <h1 class="display-3 fw-medium">Egyption Party</h1>
+                <p>Let's have fun</p>
+            </header>
+
+        </div>
+
+        <!-- Nav -->
+        <nav class="nav">
+
+            <!-- Menu -->
+            <div
+                class="navMenu bg-black d-flex flex-column justify-content-start top-0 bottom-0 position-fixed p-4">
+
+                <div class="d-flex justify-content-end pb-4">
+                    <i class="fa-solid fa-x text-white text-end"></i>
+                </div>
+
+                <h4 class="text-white fw-normal pe-5 pb-4">Home</h4>
+                <h4 class="text-white fw-normal pe-5 pb-4">Duration</h4>
+                <h4 class="text-white fw-normal pe-5 pb-4">Details</h4>
+                <h4 class="text-white fw-normal pe-5 pb-4">Contact</h4>
             </div>
 
-            <h4 class="text-white fw-normal pe-5 pb-4">Home</h4>
-            <h4 class="text-white fw-normal pe-5 pb-4">Duration</h4>
-            <h4 class="text-white fw-normal pe-5 pb-4">Details</h4>
-            <h4 class="text-white fw-normal pe-5 pb-4">Contact</h4>
-        </div>
+            <!-- Btn -->
+            <div class="navBtn position-absolute text-white">
+                <p class="fs-4"> <span class="fa-solid fa-bars"></span> Open </p>
+            </div>
 
-        <div class="navBtn">
+        </nav>
 
-        </div>
-
-    </nav>
-
-
-
-    <section class="min-vh-100">
 
     </section>
+
 
     <section class="py-5 w-50 m-auto">
 
         <div class="row flex-column">
 
-            <div class="bg-clr1">
-                <p class="singerNumber text-center text-white fs-3 fw-medium py-2 m-0">Singer one</p>
+            <div class="bg-clr1 singerNumber">
+                <p class="text-center text-white fs-3 fw-medium py-2 m-0">Singer one</p>
             </div>
 
-            <div class="singerDetails bg-clr2 d-flex justify-content-center align-items-center p-2 d-none">
-                <p class="test text-center m-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            <div class="singerDetails bg-clr2 p-2">
+                <p class="max-width-800 text-center m-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod
                     tempor incididunt ut
                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                     laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -62,12 +76,12 @@
                     non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </div>
 
-            <div class="bg-clr1">
-                <p class="singerNumber text-center text-white fs-3 fw-medium py-2 m-0">Singer two</p>
+            <div class="bg-clr1 singerNumber">
+                <p class="text-center text-white fs-3 fw-medium py-2 m-0">Singer two</p>
             </div>
 
-            <div class="singerDetails bg-clr2 d-flex justify-content-center align-items-center p-2 d-none">
-                <p class="test text-center m-0">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            <div class="singerDetails bg-clr2 p-2">
+                <p class="max-width-800 text-center m-0">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                     accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
                     quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
                     aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
@@ -79,12 +93,13 @@
                     voluptas nulla pariatur?"</p>
             </div>
 
-            <div class="bg-clr1">
-                <p class="singerNumber text-center text-white fs-3 fw-medium py-2 m-0">Singer three</p>
+            <div class="bg-clr1 singerNumber">
+                <p class="text-center text-white fs-3 fw-medium py-2 m-0">Singer three</p>
             </div>
 
-            <div class="singerDetails bg-clr2 d-flex justify-content-center align-items-center p-2 d-none">
-                <p class="test text-center m-0">"But I must explain to you how all this mistaken idea of denouncing
+            <div class="singerDetails bg-clr2 p-2">
+                <p class="max-width-800 text-center m-0">"But I must explain to you how all this mistaken idea of
+                    denouncing
                     pleasure and praising pain was born and I will give you a complete account of the system, and
                     expound the actual teachings of the great explorer of the truth, the master-builder of human
                     happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because
@@ -97,12 +112,12 @@
                     resultant pleasure?"</p>
             </div>
 
-            <div class="bg-clr1">
-                <p class="singerNumber text-center text-white fs-3 fw-medium py-2 m-0">Singer four</p>
+            <div class="bg-clr1 singerNumber">
+                <p class="text-center text-white fs-3 fw-medium py-2 m-0">Singer four</p>
             </div>
 
-            <div class="singerDetails bg-clr2 d-flex justify-content-center align-items-center p-2 d-none">
-                <p class="test text-center m-0">"At vero eos et accusamus et iusto odio dignissimos ducimus qui
+            <div class="singerDetails bg-clr2 p-2">
+                <p class="max-width-800 text-center m-0">"At vero eos et accusamus et iusto odio dignissimos ducimus qui
                     blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
                     sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
                     animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam
@@ -115,33 +130,36 @@
                 </p>
             </div>
 
-
         </div>
 
     </section>
 
-    <section class="py-3 bg-info">
+    <section class="counter bg-info">
 
-        <div class="container bg-danger">
+        <div class="counterOverlay d-flex justify-content-center align-items-center">
 
-            <div class="row justify-content-center align-items-center">
+            <div class="container">
 
-                <div class="col-md-3 w-20 me-3 border border-2 border-white text-center text-white px-5 py-5">
-                    <p class="m-0 fs-4 fw-bolder">-1012 D</p>
+                <div class="row justify-content-center align-items-center">
+
+                    <div class="col-md-3 w-20 me-3 border border-2 border-white text-center text-white px-5 py-5">
+                        <p class="m-0 fs-4 fw-bolder">-1012 D</p>
+                    </div>
+
+                    <div class="col-md-3 w-20 me-3 border border-2 border-white text-center text-white px-5 py-5">
+                        <p class="m-0 fs-4 fw-bolder">21 h</p>
+                    </div>
+
+                    <div class="col-md-3 w-20 me-3 border border-2 border-white text-center text-white px-5 py-5">
+                        <p class="m-0 fs-4 fw-bolder">33 m</p>
+                    </div>
+
+                    <div class="col-md-3 w-20 me-3 border border-2 border-white text-center text-white px-5 py-5">
+                        <p class="m-0 fs-4 fw-bolder">50 s</p>
+                    </div>
+
+
                 </div>
-
-                <div class="col-md-3 w-20 me-3 border border-2 border-white text-center text-white px-5 py-5">
-                    <p class="m-0 fs-4 fw-bolder">21 h</p>
-                </div>
-
-                <div class="col-md-3 w-20 me-3 border border-2 border-white text-center text-white px-5 py-5">
-                    <p class="m-0 fs-4 fw-bolder">33 m</p>
-                </div>
-
-                <div class="col-md-3 w-20 me-3 border border-2 border-white text-center text-white px-5 py-5">
-                    <p class="m-0 fs-4 fw-bolder">50 s</p>
-                </div>
-
 
             </div>
 
@@ -175,11 +193,11 @@
 
                     <div class="icons ms-3 text-secondary mt-3">
 
-                        <i class="fab fa-twitter me-2 p-2 border border-secondary"></i>
-                        <i class="fab fa-facebook-f me-2 p-2 border border-secondary"></i>
-                        <i class="fab fa-instagram me-2 p-2 border border-secondary"></i>
-                        <i class="fab fa-dribbble me-2 p-2 border border-secondary"></i>
-                        <i class="fab fa-pinterest me-2 p-2 border border-secondary"></i>
+                        <i class="icon fab fa-twitter me-2 p-2 border border-secondary"></i>
+                        <i class="icon fab fa-facebook me-2 p-2 border border-secondary"></i>
+                        <i class="icon fab fa-instagram me-2 p-2 border border-secondary"></i>
+                        <i class="icon fab fa-dribbble me-2 p-2 border border-secondary"></i>
+                        <i class="icon fab fa-pinterest me-2 p-2 border border-secondary"></i>
 
 
                     </div>
@@ -190,14 +208,14 @@
 
                     <form action="">
 
-                        <input type="text" class="w-100 ps-2 py-1 my-2 border" placeholder="Enter Name" name="" id="">
-                        <input type="text" class="w-100 ps-2 py-1 my-2 border" placeholder="Enter Name" name="" id="">
-                        <textarea name="" class="w-100 ps-2 py-1 my-2 border" placeholder="Enter Message" rows="8"
+                        <input type="text" class="inputs w-100 ps-2 py-1 my-2" placeholder="Enter Name" name="" id="">
+                        <input type="text" class="inputs w-100 ps-2 py-1 my-2" placeholder="Enter Name" name="" id="">
+                        <textarea name="" class="inputs w-100 ps-2 py-1 my-2" placeholder="Enter Message" rows="8"
                             id=""></textarea>
 
                         <p> <span class="text-danger">100</span> Character Reamining</p>
 
-                        <button class="btn text-white bg-danger rounded-0">SEND MESSAGE</button>
+                        <button class="btn inputs text-white bg-danger rounded-0">SEND MESSAGE</button>
 
                     </form>
 
@@ -212,6 +230,7 @@
     </footer>
 
     <script src="./Script/jquery.min.js"></script>
+    <script src="./Script/script.js"></script>
 </body>
 
 </html>

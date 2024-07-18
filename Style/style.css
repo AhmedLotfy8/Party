@@ -1,4 +1,4 @@
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,10 +13,77 @@
 }
 
 .bg-clr2 {
-    background-color:#ccc;
+    background-color: #ccc;
 }
 
 
-.test {
+.max-width-800 {
     max-width: 800px;
+}
+
+.hero {
+    height: 600px;
+    background-image: url(../images/hero.jpg);
+
+    background-size: cover;
+    background-position: center;
+
+}
+
+.headerOverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.navMenu {
+    transform: translateX(-100%);
+    transition: transform 0.7s;
+}
+
+.navMenu.active {
+    transform: translateX(0%);
+}
+
+.navMenu .fa-x:hover,
+.navMenu h4:hover {
+    cursor: pointer;
+    color: rgba(214, 46, 51, 0.6) !important;
+    transition: 0.2s;
+}
+
+.navBtn {
+    cursor: pointer;
+    left: 1%;
+    top: 40%;
+    transition: transform 0.7s;
+}
+
+.singerNumber {
+    cursor: pointer;
+}
+
+.counter {
+    background-image: url(../images/count.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+}
+
+.counterOverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.icons .icon:hover {
+    color: white;
+    background-color: rgb(214, 46, 51);
+}
+
+.inputs:focus {
+    outline-color: #80bdff;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
 }
