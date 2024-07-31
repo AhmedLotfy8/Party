@@ -46,7 +46,7 @@
 }
 
 .navMenu .fa-x:hover,
-.navMenu h4:hover {
+.navMenu a:hover {
     cursor: pointer;
     color: rgba(214, 46, 51, 0.6) !important;
     transition: 0.2s;
@@ -61,6 +61,10 @@
 
 .singerNumber {
     cursor: pointer;
+}
+
+#Details .singerDetails {
+    display: none;
 }
 
 .counter {

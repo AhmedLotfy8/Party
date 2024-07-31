@@ -18,8 +18,8 @@
 </head>
 
 <body>
-
-    <section class="hero mb-4">
+    
+    <section class="hero mb-4" id="Home">
 
         <div class="headerOverlay d-flex justify-content-center align-items-center">
 
@@ -31,20 +31,19 @@
         </div>
 
         <!-- Nav -->
-        <nav class="nav">
+        <nav class="nav" id="NavBar">
 
             <!-- Menu -->
-            <div
-                class="navMenu bg-black d-flex flex-column justify-content-start top-0 bottom-0 position-fixed p-4">
+            <div class="navMenu bg-black d-flex flex-column justify-content-start top-0 bottom-0 position-fixed p-4 z-3">
 
                 <div class="d-flex justify-content-end pb-4">
                     <i class="fa-solid fa-x text-white text-end"></i>
                 </div>
 
-                <h4 class="text-white fw-normal pe-5 pb-4">Home</h4>
-                <h4 class="text-white fw-normal pe-5 pb-4">Duration</h4>
-                <h4 class="text-white fw-normal pe-5 pb-4">Details</h4>
-                <h4 class="text-white fw-normal pe-5 pb-4">Contact</h4>
+                <h4 class="fw-normal pe-5 pb-4"><a class="text-white text-decoration-none" href="#Home">Home</a></h4>
+                <h4 class="fw-normal pe-5 pb-4"><a class="text-white text-decoration-none" href="#Details">Details</a></h4>
+                <h4 class="fw-normal pe-5 pb-4"><a class="text-white text-decoration-none" href="#Counter">Duration</a></h4>
+                <h4 class="fw-normal pe-5 pb-4"><a class="text-white text-decoration-none" href="#Contact">Contact</a></h4>
             </div>
 
             <!-- Btn -->
@@ -58,15 +57,15 @@
     </section>
 
 
-    <section class="py-5 w-50 m-auto">
+    <section class="py-5 w-50 m-auto" id="Details">
 
         <div class="row flex-column">
 
-            <div class="bg-clr1 singerNumber">
-                <p class="text-center text-white fs-3 fw-medium py-2 m-0">Singer one</p>
+            <div class="bg-clr1 singerNumber singerNumber1">
+                <h3 class="text-center text-white fs-3 fw-medium py-2 m-0">Singer one</h3>
             </div>
 
-            <div class="singerDetails bg-clr2 p-2">
+            <div class="singerDetails singerDetails1 bg-clr2 p-2">
                 <p class="max-width-800 text-center m-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod
                     tempor incididunt ut
@@ -76,8 +75,8 @@
                     non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </div>
 
-            <div class="bg-clr1 singerNumber">
-                <p class="text-center text-white fs-3 fw-medium py-2 m-0">Singer two</p>
+            <div class="bg-clr1 singerNumber singerNumber2">
+                <h3 class="text-center text-white fs-3 fw-medium py-2 m-0">Singer two</h3>
             </div>
 
             <div class="singerDetails bg-clr2 p-2">
@@ -93,8 +92,9 @@
                     voluptas nulla pariatur?"</p>
             </div>
 
-            <div class="bg-clr1 singerNumber">
-                <p class="text-center text-white fs-3 fw-medium py-2 m-0">Singer three</p>
+
+            <div class="bg-clr1 singerNumber singerNumber3">
+                <h3 class="text-center text-white fs-3 fw-medium py-2 m-0">Singer three</h3>
             </div>
 
             <div class="singerDetails bg-clr2 p-2">
@@ -112,8 +112,8 @@
                     resultant pleasure?"</p>
             </div>
 
-            <div class="bg-clr1 singerNumber">
-                <p class="text-center text-white fs-3 fw-medium py-2 m-0">Singer four</p>
+            <div class="bg-clr1 singerNumber singerNumber4">
+                <h3 class="text-center text-white fs-3 fw-medium py-2 m-0">Singer four</h3>
             </div>
 
             <div class="singerDetails bg-clr2 p-2">
@@ -134,7 +134,7 @@
 
     </section>
 
-    <section class="counter bg-info">
+    <section class="counter bg-info" id="Counter">
 
         <div class="counterOverlay d-flex justify-content-center align-items-center">
 
@@ -143,19 +143,19 @@
                 <div class="row justify-content-center align-items-center">
 
                     <div class="col-md-3 w-20 me-3 border border-2 border-white text-center text-white px-5 py-5">
-                        <p class="m-0 fs-4 fw-bolder">-1012 D</p>
+                        <p class="day m-0 fs-4 fw-bolder">-1012 D</p>
                     </div>
 
                     <div class="col-md-3 w-20 me-3 border border-2 border-white text-center text-white px-5 py-5">
-                        <p class="m-0 fs-4 fw-bolder">21 h</p>
+                        <p class="hour m-0 fs-4 fw-bolder">21 h</p>
                     </div>
 
                     <div class="col-md-3 w-20 me-3 border border-2 border-white text-center text-white px-5 py-5">
-                        <p class="m-0 fs-4 fw-bolder">33 m</p>
+                        <p class="minute m-0 fs-4 fw-bolder">33 m</p>
                     </div>
 
                     <div class="col-md-3 w-20 me-3 border border-2 border-white text-center text-white px-5 py-5">
-                        <p class="m-0 fs-4 fw-bolder">50 s</p>
+                        <p class="second m-0 fs-4 fw-bolder">50 s</p>
                     </div>
 
 
@@ -167,7 +167,7 @@
 
     </section>
 
-    <footer class="min-vh-100 py-5">
+    <footer class="min-vh-100 py-5" id="Contact">
 
         <div class="container py-5 w-75">
             <h2 class="fw-bolder">JOIN US</h2>
